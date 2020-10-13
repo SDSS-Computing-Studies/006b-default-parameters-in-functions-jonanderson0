@@ -12,14 +12,19 @@ def tempConversion(degrees, unit="C"):
 
 
 def factorPair():
+  pass
 
 
 
 def cosineLaw():
+  pass
 
 def toRadians():
+  pass
 
 def solution():
+  pass
 
 def quadratic():
+  pass
 
