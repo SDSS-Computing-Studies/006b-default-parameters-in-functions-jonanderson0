@@ -1,4 +1,5 @@
 #!python3
 
 import assignment
-print( assignment.tempConversion(10, unit="F") )
+def tempConversion():
+  print( assignment.tempConversion(10, unit="F") )
