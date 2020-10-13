@@ -2,6 +2,7 @@
 
 import assignment
 
-print(assignment.tempConversion( 0))
-
-print(assignment.tempConversion( 72, "F"))
+y = assignment.tempConversion(0)
+print(y)
+x = assignment.tempConversion( 72, "F")
+print(x)
