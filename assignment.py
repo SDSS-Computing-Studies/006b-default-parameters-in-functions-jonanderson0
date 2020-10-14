@@ -24,17 +24,17 @@ def factorPair(num,a):
 def cosineLaw(a,b,c,oppositeSide=True):
   c = toRadians(c)
   if oppositeSide == True:
-    ans2 = (a ** 2)-(b ** 2)
-    s = quadratic(a1,b1,c1)
-    x = solution(s)
-    return x
-  if b < a:
-    a1 = 1
-    b1 = -2 * (b) * (math.cos(c))
-    c1 = (b **2)-(a ** 2)
-    s = quadratic(a1,b1,c1)
-    x = solution(s)
-    return x
+    ans2 = (a ** 2) + (b ** 2) - 2 * a * b * math.cos(c)
+    s = math.sqrt(ans2)
+    return s
+  else:
+    if a > b:
+      a1 = 1
+      b1 = -2 * (a) * (math.cos(c))
+      c1 = (a ** 2)-(b ** 2)
+      s = quadratic(a1,b1,c1)
+      x = solution(s)
+      return x
  
 
 def toRadians(angled):
