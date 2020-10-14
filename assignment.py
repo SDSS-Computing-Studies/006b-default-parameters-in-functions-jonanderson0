@@ -42,8 +42,8 @@ def toRadians(angled):
   return radians
 
 def solution(solution):
-  solutions.sort()
-  x2 = solutions[1]
+  solution.sort()
+  x2 = solution[1]
   return x2
 
 def quadratic(a,b,c):
