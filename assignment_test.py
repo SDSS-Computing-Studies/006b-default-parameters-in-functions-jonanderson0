@@ -3,7 +3,8 @@
 import assignment
 
 def test1():
-  assert assignment.function() == expected output
+  x = assignment.toRadians(30)
+  assert round(x,4) == 0.5236
 
 def test2():
   assert "needle" in assignment.function()
