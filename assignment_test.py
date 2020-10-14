@@ -1,14 +1,4 @@
-#! python3
 
-import assignment
-
-def test1():
-  x = assignment.toRadians(30)
-  assert round(x,4) == 0.5236
-
-def test2():
-  assert "needle" in assignment.function()
-  assert "needle2" in assignment.function(),"error Message"
 #!python3
 import assignment
 
