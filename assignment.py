@@ -38,8 +38,10 @@ def cosineLaw(a,b,c,oppositeSide=True):
 def toRadians():
   pass
 
-def solution():
-  pass
+def solution(solution):
+  solutions.sort()
+  x2 = solutions[1]
+  return x2
 
 def quadratic():
   pass
