@@ -35,8 +35,9 @@ def cosineLaw(a,b,c,oppositeSide=True):
     return x
  
 
-def toRadians():
-  pass
+def toRadians(angled):
+  radians=(angled*math.pi)/180
+  return radians
 
 def solution(solution):
   solutions.sort()
