@@ -7,8 +7,9 @@ def tempConversion(degrees, unit="C"):
     answer = (degrees * 9/5) + 32
   if unit== "F":
     answer = (degrees - 32) * 5/9
-    answer = round(answer,1)
-    return answer
+    
+  answer = round(answer,1)
+  return answer
 
 
 
