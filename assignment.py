@@ -11,8 +11,11 @@ def tempConversion(degrees, unit="C"):
 
 
 
-def factorPair():
-  pass
+def factorPair(num,a):
+  b = int(num/a)
+  answer = [a,b]
+  answer.sort()
+  return answer
 
 
 
